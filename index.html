@@ -5,21 +5,29 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Студия</title>
-    <link rel="stylesheet" href="./css/slyle.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./css/style.css" />
   </head>
   <body>
-    <header>
-      <nav>
-        <a href="" class="logo">WebStudio</a></li>
-        <ul class="site-nav list">
-          <li><a href="./index.html" class="link">Cтyдия</a></li>
-          <li><a href="./portfolio.html" class="link">Портфолио</a></li>
-          <li><a href="" class="link">Контакты</a></li>
+    <header class="header">
+      <nav class="header-nav">
+        <a class="link logo" href="./index.html">Web<span class="logo-second-word">Studio</span></a>
+        <ul class="header-nav-list">
+          <li class="header-item"><a class="link active" href="./index.html">Cтyдия</a></li>
+          <li class="header-item"><a class="link" href="./portfolio.html">Портфолио</a></li>
+          <li class="header-item"><a class="link" href="">Контакты</a></li>
         </ul>
       </nav>
-      <ul class="header-adress list">
-        <li><a href="mailto:info@devstudio.com" class="link">info@devstudio.com</a></li>
-        <li><a href="tel:+380961111111" class="link">+38 096 111 11 11</a></li>
+      <ul class="header-adress-list">
+        <li class="nav-item">
+          <a class="link" href="mailto:info@devstudio.com">info@devstudio.com</a>
+        </li>
+        <li class="nav-item"><a class="link" href="tel:+380961111111">+38 096 111 11 11</a></li>
       </ul>
     </header>
 
@@ -34,7 +42,7 @@
 
       <section>
         <!-- Don't forget <h2> !!!!!!!!!!! -->
-        <h2 .hidden-title>Особенности</h2>
+        <h2 .hidden>Особенности</h2>
         <ul>
           <li>
             <h3>Внимание к деталям</h3>
@@ -95,20 +103,27 @@
         </ul>
       </section>
 
-      <footer>
-        <a href="">WebStudio</a>
+      <footer class="footer">
+        <a class="link logo" href="./index.html"
+          >Web<span class="logo-secword-footer">Studio</span></a
+        >
         <address>
-          <ul>
-            <li>
+          <ul class="footer-list">
+            <li class="footer-adress-item">
               <a
+                class="link"
                 href="https://goo.gl/maps/9dT43rwz24c6EDNdA"
                 target="_blank"
                 rel="noopener noreferrer"
                 >г. Киев, пр-т Леси Украинки, 26</a
               >
             </li>
-            <li><a href="mailto:info@example.com">info@example.com</a></li>
-            <li><a href="tel:+380961111111">+38 096 111 11 11></a></li>
+            <li class="footer-item">
+              <a class="link" href="mailto:info@example.com">info@example.com</a>
+            </li>
+            <li class="footer-item">
+              <a class="link" href="tel:+380961111111">+38 096 111 11 11></a>
+            </li>
           </ul>
         </address>
       </footer>
